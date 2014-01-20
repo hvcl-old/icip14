@@ -1,0 +1,11 @@
+%% proposal_main.tex
+
+Serving the most basic building block in the JPEG2000 compression pipeline~\cite{skodras_jpeg_2001}, discrete wavelet transform (DWT) is well-known for sparsifying the signal. 
+Traditional DWT comprises many steps including: downsampling, filtering and moving the pixels of the result image to separate wavelet sub-bands. 
+Later, the lifting-scheme technique comes up to increase performance of DWT on the CPU side. 
+It divides the filter scheme into intermediate stages and leverages the implicit parallelism. 
+By recognizing the main bottleneck of DWT comes from non-contiguous memory accessing and frequency coefficients moving, mixed-band algorithm attempts to store the sub-band of wavelet decomposition in the interleave positions and utilize the fast-on-chip GPU memories (e.g. shared memory) to process multi-level wavelet decomposition.
+Taking into account with the advantages of this feature, we fulfill the picture in which the quality of Compressive Sensing Reconstruction on 3D MRI can be enhanced and the entire process can be speed up by using 3D mixed-band Wavelet Transform on GPU.
+
+% the mixed-band wavelet algorithm on the GPUs. 
+% By recognizing the main bottleneck of DWT comes from uncoaslesced memory accessing and frequency coefficients moving, mixed-band algorithm attempts to store the sub-band of wavelet decomposition in the interleave positions and utilize the fast-on-chip GPU memories (e.g. shared memory) to conduct arithmetic operations for multi-level wavelet computing. %The proposed method is well-fit to the multi-dimension wavelet and is the promising application for bio-medical image processing (e.g. CT, MRI, PET, etc.) while we want to deal with very large-scale data which come continuously from the medical scanners or equipments and performing many iterations in some optimization approaches (e.g. Compressive Sensing, Gradient Descent, e.g.).

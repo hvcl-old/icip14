@@ -1,0 +1,692 @@
+
+@article{donoho_-noising_1995,
+	title = {De-noising by soft-thresholding},
+	volume = {41},
+	issn = {0018-9448},
+	doi = {10.1109/18.382009},
+	abstract = {Donoho and Johnstone (1994) proposed a method for reconstructing an unknown function f on [0,1] from noisy data di=f(ti )+szi, i=0, …, n-1,ti=i/n, where the zi are independent and identically distributed standard Gaussian random variables. The reconstruction fˆ*n is defined in the wavelet domain by translating all the empirical wavelet coefficients of d toward 0 by an amount s·v(2log (n)/n). The authors prove two results about this type of estimator. [Smooth]: with high probability fˆ*n is at least as smooth as f, in any of a wide variety of smoothness measures. [Adapt]: the estimator comes nearly as close in mean square to f as any measurable estimator can come, uniformly over balls in each of two broad scales of smoothness classes. These two properties are unprecedented in several ways. The present proof of these results develops new facts about abstract statistical inference and its connection with an optimal recovery model},
+	number = {3},
+	journal = {{IEEE} Transactions on Information Theory},
+	author = {Donoho, {D.L.}},
+	year = {1995},
+	keywords = {adaptive estimation, Damping, de-noising, empirical wavelet coefficients, estimator, Gaussian distribution, Information theory, interference suppression, minimax techniques, Noise reduction, noisy data, optimal recovery model, Oral communication, probability, random processes, random variables, Reconstruction, signal reconstruction, smoothing methods, smoothness measures, soft-thresholding, standard Gaussian random variables, statistical inference, unknown function, Wavelet coefficients, wavelet domain, wavelet transforms},
+	pages = {613--627},
+	file = {IEEE Xplore Abstract Record:E:\Zotero\storage\WR8FGRZN\abs_all.html:text/html;IEEE Xplore Full Text PDF:E:\Zotero\storage\D2JW3876\Donoho - 1995 - De-noising by soft-thresholding.pdf:application/pdf}
+}
+
+@article{donoho_compressed_2006,
+	title = {Compressed sensing},
+	volume = {52},
+	issn = {0018-9448},
+	doi = {10.1109/TIT.2006.871582},
+	abstract = {Suppose x is an unknown vector in Ropfm (a digital image or signal); we plan to measure n general linear functionals of x and then reconstruct. If x is known to be compressible by transform coding with a known transform, and we reconstruct via the nonlinear procedure defined here, the number of measurements n can be dramatically smaller than the size m. Thus, certain natural classes of images with m pixels need only {n=O(m1/4log5/2(m))} nonadaptive nonpixel samples for faithful recovery, as opposed to the usual m pixel samples. More specifically, suppose x has a sparse representation in some orthonormal basis (e.g., wavelet, Fourier) or tight frame (e.g., curvelet, Gabor)-so the coefficients belong to an lscrp ball for 0{\textless}ples1. The N most important coefficients in that expansion allow reconstruction with lscr2 error O(N1/2-1p/). It is possible to design {n=O(Nlog(m))} nonadaptive measurements allowing reconstruction with accuracy comparable to that attainable with direct knowledge of the N most important coefficients. Moreover, a good approximation to those N important coefficients is extracted from the n measurements by solving a linear program-Basis Pursuit in signal processing. The nonadaptive measurements have the character of "random" linear combinations of basis/frame elements. Our results use the notions of optimal recovery, of n-widths, and information-based complexity. We estimate the Gel'fand n-widths of lscrp balls in high-dimensional Euclidean space in the case 0{\textless}ples1, and give a criterion identifying near- optimal subspaces for Gel'fand n-widths. We show that "most" subspaces are near-optimal, and show that convex optimization (Basis Pursuit) is a near-optimal way to extract information derived from these near-optimal subspaces},
+	number = {4},
+	journal = {{IEEE} Transactions on Information Theory},
+	author = {Donoho, {D.L.}},
+	year = {2006},
+	keywords = {Adaptive sampling, almost-spherical sections of Banach spaces, Basis Pursuit, compressed sensing, convex optimization, convex programming, data compression, Data mining, Digital images, eigenvalues of random matrices, Euclidean space, Gel'fand, general linear functional measurement, image coding, image reconstruction, image sampling, image sensors, information-based complexity, integrated sensing and processing, minimum, nonadaptive nonpixel sampling, optimal recovery, Pixel, Quotient-of-a-Subspace theorem, sensing compression, signal processing, Size measurement, sparse matrices, sparse representation, sparse solution of linear equations, transform coding, Vectors},
+	pages = {1289--1306},
+	file = {Donoho - 2006 - Compressed sensing.pdf:E:\Zotero\storage\7H43GA8A\Donoho - 2006 - Compressed sensing.pdf:application/pdf;IEEE Xplore Abstract Record:E:\Zotero\storage\XZMQ6T3R\articleDetails.html:text/html}
+}
+
+
+@article{candes_introduction_2008,
+	title = {An Introduction To Compressive Sampling},
+	volume = {25},
+	issn = {1053-5888},
+	doi = {10.1109/MSP.2007.914731},
+	abstract = {Conventional approaches to sampling signals or images follow Shannon's theorem: the sampling rate must be at least twice the maximum frequency present in the signal (Nyquist rate). In the field of data conversion, standard analog-to-digital converter ({ADC)} technology implements the usual quantized Shannon representation - the signal is uniformly sampled at or above the Nyquist rate. This article surveys the theory of compressive sampling, also known as compressed sensing or {CS}, a novel sensing/sampling paradigm that goes against the common wisdom in data acquisition. {CS} theory asserts that one can recover certain signals and images from far fewer samples or measurements than traditional methods use.},
+	number = {2},
+	journal = {{IEEE} Signal Processing Magazine},
+	author = {Candes, {E.J.} and Wakin, {M.B.}},
+	year = {2008},
+	keywords = {Biomedical imaging, compressed sensing, compressive sampling, data acquisition, Frequency, image coding, image processing, image recovery, image sampling, Protocols, Receivers, Relatively few wavelet, Sampling methods, sampling paradigm, sensing paradigm, signal processing, signal processing equipment, signal recovery, signal sampling},
+	pages = {21--30},
+	file = {Candes and Wakin - 2008 - An Introduction To Compressive Sampling.pdf:files/192/Candes and Wakin - 2008 - An Introduction To Compressive Sampling.pdf:application/pdf;IEEE Xplore Abstract Record:files/193/articleDetails.html:text/html}
+}
+
+
+@article{lustig_compressed_2008,
+	title = {Compressed Sensing {MRI}},
+	volume = {25},
+	issn = {1053-5888},
+	doi = {10.1109/MSP.2007.914728},
+	abstract = {This article reviews the requirements for successful compressed sensing ({CS)}, describes their natural fit to {MRI}, and gives examples of four interesting applications of {CS} in {MRI.} The authors emphasize on an intuitive understanding of {CS} by describing the {CS} reconstruction as a process of interference cancellation. There is also an emphasis on the understanding of the driving factors in applications, including limitations imposed by {MRI} hardware, by the characteristics of different types of images, and by clinical concerns.},
+	number = {2},
+	journal = {{IEEE} Signal Processing Magazine},
+	author = {Lustig, M. and Donoho, {D.L.} and Santos, {J.M.} and Pauly, {J.M.}},
+	year = {2008},
+	keywords = {Biomedical imaging, biomedical {MRI}, compressed sensing, encoding, image coding, image reconstruction, interference cancellation, Magnetic Resonance Imaging, Magnetization, medical image processing, {MRI}, Protons, Radio frequency, review, reviews, wavelet transforms},
+	pages = {72--82},
+	file = {IEEE Xplore Abstract Record:files/196/articleDetails.html:text/html;Lustig et al. - 2008 - Compressed Sensing MRI.pdf:files/195/Lustig et al. - 2008 - Compressed Sensing MRI.pdf:application/pdf}
+}
+
+
+@article{lustig_sparse_2007,
+	title = {Sparse {MRI:} The application of compressed sensing for rapid {MR} imaging},
+	volume = {58},
+	copyright = {Copyright © 2007 Wiley-Liss, Inc.},
+	issn = {1522-2594},
+	shorttitle = {Sparse {MRI}},
+	doi = {10.1002/mrm.21391},
+	abstract = {The sparsity which is implicit in {MR} images is exploited to significantly undersample k-space. Some {MR} images such as angiograms are already sparse in the pixel representation; other, more complicated images have a sparse representation in some transform domain–for example, in terms of spatial finite-differences or their wavelet coefficients. According to the recently developed mathematical theory of compressed-sensing, images with a sparse representation can be recovered from randomly undersampled k-space data, provided an appropriate nonlinear recovery scheme is used. Intuitively, artifacts due to random undersampling add as noise-like interference. In the sparse transform domain the significant coefficients stand out above the interference. A nonlinear thresholding scheme can recover the sparse coefficients, effectively recovering the image itself. In this article, practical incoherent undersampling schemes are developed and analyzed by means of their aliasing interference. Incoherence is introduced by pseudo-random variable-density undersampling of phase-encodes. The reconstruction is performed by minimizing the l1 norm of a transformed image, subject to data fidelity constraints. Examples demonstrate improved spatial resolution and accelerated acquisition for multislice fast spin-echo brain imaging and {3D} contrast enhanced angiography. Magn Reson Med, 2007. © 2007 Wiley-Liss, Inc.},
+	language = {en},
+	number = {6},
+	urldate = {2013-05-29},
+	journal = {Magnetic Resonance in Medicine},
+	author = {Lustig, Michael and Donoho, David and Pauly, John M.},
+	year = {2007},
+	keywords = {compressed sensing, compressive sampling, nonlinear reconstruction, random sampling, rapid {MRI}, sparse reconstruction, sparsity},
+	pages = {1182–1195},
+	file = {Full Text PDF:files/139/Lustig et al. - 2007 - Sparse MRI The application of compressed sensing .pdf:application/pdf;Snapshot:files/140/abstract;jsessionid=1EC77301ADF8B23B22A58BE8BAFD6439.html:text/html}
+}
+
+
+@article{lustig_spirit:_2010,
+	title = {{SPIRiT:} Iterative self--consistent parallel imaging reconstruction from arbitrary k-space},
+	volume = {64},
+	issn = {1522-2594},
+	shorttitle = {{SPIRiT}},
+	doi = {10.1002/mrm.22428},
+	abstract = {A new approach to autocalibrating, coil-by-coil parallel imaging reconstruction, is presented. It is a generalized reconstruction framework based on self-consistency. The reconstruction problem is formulated as an optimization that yields the most consistent solution with the calibration and acquisition data. The approach is general and can accurately reconstruct images from arbitrary k-space sampling patterns. The formulation can flexibly incorporate additional image priors such as off-resonance correction and regularization terms that appear in compressed sensing. Several iterative strategies to solve the posed reconstruction problem in both image and k-space domain are presented. These are based on a projection over convex sets and conjugate gradient algorithms. Phantom and in vivo studies demonstrate efficient reconstructions from undersampled Cartesian and spiral trajectories. Reconstructions that include off-resonance correction and nonlinear l(1)-wavelet regularization are also demonstrated.},
+	language = {eng},
+	number = {2},
+	journal = {Magnetic resonance in medicine: official journal of the Society of Magnetic Resonance in Medicine / Society of Magnetic Resonance in Medicine},
+	author = {Lustig, Michael and Pauly, John M},
+	month = aug,
+	year = {2010},
+	note = {{PMID:} 20665790},
+	keywords = {Algorithms, Humans, Image Enhancement, Image Interpretation, Computer-Assisted, Magnetic Resonance Imaging, Phantoms, Imaging, Reproducibility of Results, Sensitivity and Specificity},
+	pages = {457--471}
+}
+
+@article{beck_fast_2009,
+	title = {A Fast Iterative Shrinkage--Thresholding Algorithm for Linear Inverse Problems},
+	volume = {2},
+	issn = {1936-4954},
+	doi = {10.1137/080716542},
+	number = {1},
+	urldate = {2013-06-10},
+	journal = {{SIAM} Journal on Imaging Sciences},
+	author = {Beck, Amir and Teboulle, Marc},
+	month = jan,
+	year = {2009},
+	pages = {183--202},
+	file = {A Fast Iterative Shrinkage-Thresholding Algorithm for Linear Inverse Problems : SIAM Journal on Imaging Sciences: Vol. 2, No. 1 (Society for Industrial and Applied Mathematics):files/200/080716542.html:text/html}
+}
+
+@article{jung_improved_2007,
+	title = {Improved k--t {BLAST} and k--t {SENSE} using {FOCUSS}},
+	volume = {52},
+	issn = {0031-9155},
+	doi = {10.1088/0031-9155/52/11/018},
+	abstract = {The dynamic {MR} imaging of time-varying objects, such as beating hearts or brain hemodynamics, requires a significant reduction of the data acquisition time without sacrificing spatial resolution. The classical approaches for this goal include parallel imaging, temporal filtering and their combinations. Recently, model-based reconstruction methods called k-t {BLAST} and k-t {SENSE} have been proposed which largely overcome the drawbacks of the conventional dynamic imaging methods without a priori knowledge of the spectral support. Another recent approach called k-t {SPARSE} also does not require exact knowledge of the spectral support. However, unlike k-t {BLAST/SENSE}, k-t {SPARSE} employs the so-called compressed sensing ({CS)} theory rather than using training. The main contribution of this paper is a new theory and algorithm that unifies the abovementioned approaches while overcoming their drawbacks. Specifically, we show that the celebrated k-t {BLAST/SENSE} are the special cases of our algorithm, which is asymptotically optimal from the {CS} theory perspective. Experimental results show that the new algorithm can successfully reconstruct a high resolution cardiac sequence and functional {MRI} data even from severely limited k-t samples, without incurring aliasing artifacts often observed in conventional methods.},
+	language = {en},
+	number = {11},
+	urldate = {2013-06-13},
+	journal = {Physics in Medicine and Biology},
+	author = {Jung, Hong and Ye, Jong Chul and Kim, Eung Yeop},
+	month = jun,
+	year = {2007},
+	pages = {3201},
+	file = {Jung et al. - 2007 - Improved k-t BLAST and k-t SENSE using FOCUSS.pdf:files/377/Jung et al. - 2007 - Improved k-t BLAST and k-t SENSE using FOCUSS.pdf:application/pdf;Snapshot:files/378/018.html:text/html}
+}
+
+@article{jung_k-t_2009,
+	title = {k--t {FOCUSS:} A general compressed sensing framework for high resolution dynamic {MRI}},
+	volume = {61},
+	copyright = {Copyright © 2008 Wiley-Liss, Inc.},
+	issn = {1522-2594},
+	shorttitle = {k-t {FOCUSS}},
+	doi = {10.1002/mrm.21757},
+	abstract = {A model-based dynamic {MRI} called k-t {BLAST/SENSE} has drawn significant attention from the {MR} imaging community because of its improved spatio-temporal resolution. Recently, we showed that the k-t {BLAST/SENSE} corresponds to the special case of a new dynamic {MRI} algorithm called k-t {FOCUSS} that is optimal from a compressed sensing perspective. The main contribution of this article is an extension of k-t {FOCUSS} to a more general framework with prediction and residual encoding, where the prediction provides an initial estimate and the residual encoding takes care of the remaining residual signals. Two prediction methods, {RIGR} and motion estimation/compensation scheme, are proposed, which significantly sparsify the residual signals. Then, using a more sophisticated random sampling pattern and optimized temporal transform, the residual signal can be effectively estimated from a very small number of k-t samples. Experimental results show that excellent reconstruction can be achieved even from severely limited k-t samples without aliasing artifacts. Magn Reson Med 61:103–116, 2009. © 2008 Wiley-Liss, Inc.},
+	language = {en},
+	number = {1},
+	urldate = {2013-04-16},
+	journal = {Magnetic Resonance in Medicine},
+	author = {Jung, Hong and Sung, Kyunghyun and Nayak, Krishna S. and Kim, Eung Yeop and Ye, Jong Chul},
+	year = {2009},
+	keywords = {compressed sensing, {FOCUSS}, k-t {BLAST/SENSE}, {ME/MC}, {RIGR}, {SPEAR}},
+	pages = {103–116},
+	file = {Jung et al. - 2009 - k-t FOCUSS A general compressed sensing framework.pdf:files/152/Jung et al. - 2009 - k-t FOCUSS A general compressed sensing framework.pdf:application/pdf;Snapshot:files/153/abstract;jsessionid=17E3D0E70C943AC1C3090E3C33AECC11.html:text/html}
+}
+
+@article{smith_real-time_2012,
+	title = {Real--Time Compressive Sensing {MRI} Reconstruction Using {GPU} Computing and Split Bregman Methods},
+	volume = {2012},
+	issn = {1687-4188, 1687-4196},
+	doi = {10.1155/2012/864827},
+	urldate = {2013-04-11},
+	journal = {International Journal of Biomedical Imaging},
+	author = {Smith, David S. and Gore, John C. and Yankeelov, Thomas E. and Welch, E. Brian},
+	year = {2012},
+	pages = {1--6},
+	file = {Real-Time Compressive Sensing MRI Reconstruction Using GPU Computing and Split Bregman Methods:files/137/864827.html:application/xhtml+xml}
+},
+
+@article{kim_high-performance_2011,
+	title = {High--performance {3D} compressive sensing {MRI} reconstruction using many--core architectures},
+	volume = {2011},
+	issn = {1687-4188},
+	doi = {10.1155/2011/473128},
+	abstract = {Compressive sensing ({CS)} describes how sparse signals can be accurately reconstructed from many fewer samples than required by the Nyquist criterion. Since {MRI} scan duration is proportional to the number of acquired samples, {CS} has been gaining significant attention in {MRI.} However, the computationally intensive nature of {CS} reconstructions has precluded their use in routine clinical practice. In this work, we investigate how different throughput-oriented architectures can benefit one {CS} algorithm and what levels of acceleration are feasible on different modern platforms. We demonstrate that a {CUDA-based} code running on an {NVIDIA} Tesla C2050 {GPU} can reconstruct a 256 × 160 × 80 volume from an 8-channel acquisition in 19 seconds, which is in itself a significant improvement over the state of the art. We then show that Intel's Knights Ferry can perform the same {3D} {MRI} reconstruction in only 12 seconds, bringing {CS} methods even closer to clinical viability.},
+	urldate = {2013-06-10},
+	journal = {Journal of Biomedical Imaging},
+	author = {Kim, Daehyun and Trzasko, Joshua and Smelyanskiy, Mikhail and Haider, Clifton and Dubey, Pradeep and Manduca, Armando},
+	month = jan,
+	year = {2011},
+	pages = {2:1–2:11},
+	file = {Kim et al. - 2011 - High-performance 3D compressive sensing MRI recons.pdf:files/186/Kim et al. - 2011 - High-performance 3D compressive sensing MRI recons.pdf:application/pdf}
+}
+
+@article{goldstein_split_2009,
+	title = {The Split Bregman Method for $\ell$1--Regularized Problems},
+	volume = {2},
+	issn = {1936-4954},
+	doi = {10.1137/080725891},
+	number = {2},
+	urldate = {2013-06-10},
+	journal = {{SIAM} Journal on Imaging Sciences},
+	author = {Goldstein, Tom and Osher, Stanley},
+	month = jan,
+	year = {2009},
+	pages = {323--343},
+	file = {The Split Bregman Method for L1-Regularized Problems : SIAM Journal on Imaging Sciences: Vol. 2, No. 2 (Society for Industrial and Applied Mathematics):files/202/080725891.html:text/html}
+}
+
+@book{daubechies1992ten,
+  title={Ten Lectures on Wavelets},
+  author={I. Daubechies},
+  isbn={9780898712742},
+  lccn={lc92013201},
+  series={CBMS-NSF Regional Conference Series in Applied Mathematics},
+  year={1992},
+  publisher={Society for Industrial and Applied Mathematics}
+}
+
+@article{daubechieslifting,
+	author = {I. Daubechies and W. Sweldens},
+	title = {Factoring Wavelet Transforms into Lifting Steps},
+	journal = {J. Fourier Anal. Appl.},
+	volume = 4,
+	number = 3,
+	pages = {245-267},
+	year = {1998}		
+}
+
+@inproceedings{franco_parallel_2009,
+	title = {A Parallel Implementation of the {2D} Wavelet Transform Using {CUDA}},
+	doi = {10.1109/PDP.2009.40},
+	abstract = {There is a multicore platform that is currently concentrating an enormous attention due to its tremendous potential in terms of sustained performance: the {NVIDIA} Tesla boards. These cards intended for general-purpose computing on graphic processing units ({GPGPUs)} are used as data-parallel computing devices. They are based on the Computed Unified Device Architecture ({CUDA)} which is common to the latest {NVIDIA} {GPUs.} The bottom line is a multicore platform which provides an enormous potential performance benefit driven by a non-traditional programming model. In this paper we try to provide some insight into the peculiarities of {CUDA} in order to target scientific computing by means of a specific example. In particular, we show that the parallelization of the two-dimensional fast wavelet transform for the {NVIDIA} Tesla C870 achieves a speedup of 20.8 for an image size of 8192times8192, when compared with the fastest host-only version implementation using {OpenMP} and including the data transfers between main memory and device memory.},
+	booktitle = {2009 17th Euromicro International Conference on Parallel, Distributed and Network-based Processing},
+	author = {Franco, J. and Bernabe, G. and Fernandez, J. and Acacio, {M.E.}},
+	year = {2009},
+	keywords = {{2D} fast wavelet transform, {2D} wavelet transform, Central Processing Unit, computed unified device architecture, Computer architecture, computer graphics, {CUDA}, Discrete cosine transforms, general-purpose computing on graphic processing units, Graphics, image coding, microprocessor chips, Multicore processing, multicore processor, {NVIDIA} Tesla, {NVIDIA} Tesla boards, {OpenMP}, parallel computing devices, parallel programming, Scientific computing, Video compression, wavelet transforms, Yarn},
+	pages = {111--118},
+	file = {Franco et al. - 2009 - A Parallel Implementation of the 2D Wavelet Transf.pdf:files/26/Franco et al. - 2009 - A Parallel Implementation of the 2D Wavelet Transf.pdf:application/pdf;IEEE Xplore Abstract Record:files/27/abs_all.html:text/html}
+},
+
+@article{franco_parallel_2010,
+	title = {Parallel {3D} fast wavelet transform on manycore {GPUs} and multicore {CPUs}},
+	volume = {1},
+	issn = {1877-0509},
+	shorttitle = {{ICCS} 2010},
+	doi = {10.1016/j.procs.2010.04.122},
+	abstract = {{GPUs} have recently attracted our attention as accelerators on a wide variety of algorithms, including assorted examples within the image analysis field. Among them, wavelets are gaining popularity as solid tools for data mining and video compression, though this comes at the expense of a high computational cost. After proving the effectiveness of the {GPU} for accelerating the {2D} Fast Wavelet Transform [1], we present in this paper a novel implementation on manycore {GPUs} and multicore {CPUs} for a high performance computation of the {3D} Fast Wavelet Transform ({3DFWT).} This algorithm poses a challenging access pattern on matrix operators demanding high sustainable bandwidth, as well as mathematical functions with remarkable arithmetic intensity on {ALUs} and {FPUs.} On the {GPU} side, we focus on {CUDA} programming to develop methods for an efficient mapping on manycores and to fully exploit the memory hierarchy, whose management is explicit by the programmer. On multicore {CPUs}, {OpenMP} and Pthreads are used as counterparts to maximize parallelism, and renowned techniques like tiling and blocking are exploited to optimize the use of memory. Experimental results on an Nvidia Tesla C870 {GPU} and an Intel Core 2 Quad Q6700 {CPU} indicate that our implementation runs three times faster on the Tesla and up to fifteen times faster when communications are neglected, which enables the {GPU} for processing real-time videos in many applications where the {3D-FWT} is involved.},
+	number = {1},
+	urldate = {2013-04-09},
+	journal = {Procedia Computer Science},
+	author = {Franco, Joaquín and Bernabé, Gregorio and Fernández, Juan and Ujaldón, Manuel},
+	month = may,
+	year = {2010},
+	keywords = {{3D} Fast wavelet transform, {GPU}, Multicore, parallel programming},
+	pages = {1101--1110},
+	file = {Franco et al. - 2010 - Parallel 3D fast wavelet transform on manycore GPU.pdf:files/128/Franco et al. - 2010 - Parallel 3D fast wavelet transform on manycore GPU.pdf:application/pdf;ScienceDirect Snapshot:files/129/S1877050910001237.html:text/html}
+},
+
+
+
+@inproceedings{van_der_laan_accelerating_2009,
+	author = {Van der Laan, {W.J.} and Roerdink, J. B T M and Jalba, {A.C.}},
+	title = {Accelerating wavelet-based video coding on graphics hardware using {CUDA}},
+	abstract = {The discrete wavelet transform ({DWT)} has a wide range of applications from signal processing to video and image compression. This transform, by means of the lifting scheme, can be performed in a memory and computation efficient way on modern, programmable {GPUs}, which can be regarded as massively parallel co-processors through {NVidia's} {CUDA} compute paradigm. The method is scalable and the fastest {GPU} implementation among the methods considered. We have integrated our {DWT} into the Dirac wavelet video codec ({DWVC)}, of which the overlapped block motion compensation and frame arithmetic have been accelerated using {CUDA} as well.},
+	booktitle = {Proceedings of 6th International Symposium on Image and Signal Processing and Analysis, 2009. {ISPA} 2009},
+	year = {2009},
+	keywords = {Acceleration, block motion compensation, compute unified device architecture, computer graphic equipment, Concurrent computing, {CUDA}, Dirac wavelet video codec, Discrete transforms, discrete wavelet transform, discrete wavelet transforms, frame arithmetic, Graphics, graphics hardware, Hardware, image coding, lifting scheme, motion compensation, programmable {GPU}, video coding, Video compression, Video signal processing, wavelet-based video coding},
+	pages = {608--613},
+	file = {IEEE Xplore Abstract Record:files/6/abs_all.html:text/html;van der Laan et al. - 2009 - Accelerating wavelet-based video coding on graphic.pdf:files/5/van der Laan et al. - 2009 - Accelerating wavelet-based video coding on graphic.pdf:application/pdf}
+},
+
+@article{van_der_laan_accelerating_2011,
+	title = {Accelerating Wavelet Lifting on Graphics Hardware Using {CUDA}},
+	volume = {22},
+	issn = {1045-9219},
+	doi = {10.1109/TPDS.2010.143},
+	abstract = {The Discrete Wavelet Transform ({DWT)} has a wide range of applications from signal processing to video and image compression. We show that this transform, by means of the lifting scheme, can be performed in a memory and computation-efficient way on modern, programmable {GPUs}, which can be regarded as massively parallel coprocessors through {NVidia's} {CUDA} compute paradigm. The three main hardware architectures for the {2D} {DWT} (row-column, line-based, block-based) are shown to be unsuitable for a {CUDA} implementation. Our {CUDA-specific} design can be regarded as a hybrid method between the row-column and block-based methods. We achieve considerable speedups compared to an optimized {CPU} implementation and earlier non-{CUDA-based} {GPU} {DWT} methods, both for {2D} images and {3D} volume data. Additionally, memory usage can be reduced significantly compared to previous {GPU} {DWT} methods. The method is scalable and the fastest {GPU} implementation among the methods considered. A performance analysis shows that the results of our {CUDA-specific} design are in close agreement with our theoretical complexity analysis.},
+	number = {1},
+	journal = {{IEEE} Transactions on Parallel and Distributed Systems},
+	author = {Van der Laan, {W.J.} and Jalba, {A.C.} and Roerdink, J. B T M},
+	year = {2011},
+	keywords = {{2D} {DWT}, {2D} images, {3D} volume, accelerating wavelet lifting, Acceleration, Approximation methods, block based method, computer graphic equipment, Concurrent computing, coprocessors, {CUDA} specific design, {CUDA.}, data compression, Discrete transforms, discrete wavelet transform, discrete wavelet transforms, fastest {GPU} implementation, Fractals, Graphics, graphics hardware, Graphics processing unit, Hardware, hardware architectures, image coding, image compression, memory usage, {nonCUDA-based} {GPU} {DWT} methods, {NVidia} {CUDA} compute paradigm, optimized {CPU} implementation, parallel architectures, parallel coprocessors, Performance analysis, programmable {GPU}, signal processing, solid modelling, video coding, Video compression, Video signal processing, wavelet lifting},
+	pages = {132--146},
+	file = {IEEE Xplore Abstract Record:files/12/articleDetails.html:text/html;van der Laan et al. - 2011 - Accelerating Wavelet Lifting on Graphics Hardware .pdf:files/11/van der Laan et al. - 2011 - Accelerating Wavelet Lifting on Graphics Hardware .pdf:application/pdf}
+},
+
+@inproceedings{matela_gpu_2009,
+	title = {{GPU--Based} {DWT} Acceleration for {JPEG2000}},
+	author = {Matela, Jiri},
+	year = {2009},
+	booktitle = {{Annual} {Doctoral} {Workshop} {On} {Mathematical} {and} {Engineering} {Methods} {in} {Computer} {Science}},
+	author = {Matela, Jiri},
+	pages = {136-143},
+	isbn = {978-80-87342-04-6}
+},
+
+@book{chong2011introduction,
+  title={An Introduction to Optimization},
+  author={Chong, E.K.P. and Zak, S.H.},
+  isbn={9781118031551},
+  lccn={2007037112},
+  series={Wiley Series in Discrete Mathematics and Optimization},
+  year={2011},
+  publisher={Wiley}
+},
+
+
+@book{richardson_approximate_1911,
+	title = {The Approximate Arithmetical Solution by Finite Differences of Physical Problems Involving Differential Equations, with an Application to the Stresses in a Masonry Dam},
+	copyright = {http://creativecommons.org/publicdomain/mark/1.0/},
+	abstract = {The Approximate Arithmetical Solution by Finite Differences of Physical Problems Involving Differential Equations, with an Application to the Stresses in a Masonry Dam. Richardson, L Philosophical Transactions of the Royal Society of London. Series A, Containing Papers of a Math. or Phys. Character (1896-1934). 1911-01-01. 210:307–357},
+	language = {eng},
+	urldate = {2013-06-10},
+	publisher = {Royal Society of London},
+	author = {Richardson, L.},
+	month = jan,
+	year = {1911},
+	keywords = {Proceedings of the Royal Society of London}
+},
+
+
+@article{cheng_heritage_2005,
+	title = {Heritage and early history of the boundary element method},
+	volume = {29},
+	issn = {0955-7997},
+	doi = {10.1016/j.enganabound.2004.12.001},
+	abstract = {This article explores the rich heritage of the boundary element method ({BEM)} by examining its mathematical foundation from the potential theory, boundary value problems, Green's functions, Green's identities, to Fredholm integral equations. The 18th to 20th century mathematicians, whose contributions were key to the theoretical development, are honored with short biographies. The origin of the numerical implementation of boundary integral equations can be traced to the 1960s, when the electronic computers had become available. The full emergence of the numerical technique known as the boundary element method occurred in the late 1970s. This article reviews the early history of the boundary element method up to the late 1970s.},
+	number = {3},
+	urldate = {2013-06-10},
+	journal = {Engineering Analysis with Boundary Elements},
+	author = {Cheng, Alexander H.-D. and Cheng, Daisy T.},
+	month = mar,
+	year = {2005},
+	keywords = {Boundary element method, Boundary integral equation method, Green's functions, Green's identities, History, Integral equation},
+	pages = {268--302},
+	file = {Cheng and Cheng - 2005 - Heritage and early history of the boundary element.pdf:files/217/Cheng and Cheng - 2005 - Heritage and early history of the boundary element.pdf:application/pdf;ScienceDirect Snapshot:files/218/S0955799705000020.html:text/html}
+},
+
+
+@article{skodras_jpeg_2001,
+	title = {The {JPEG} 2000 still image compression standard},
+	volume = {18},
+	issn = {1053-5888},
+	doi = {10.1109/79.952804},
+	abstract = {One of the aims of the standardization committee has been the development of Part I, which could be used on a royalty- and fee-free basis. This is important for the standard to become widely accepted. The standardization process, which is coordinated by the {JTCI/SC29/WG1} of the {ISO/IEC} has already produced the international standard ({IS)} for Part I. In this article the structure of Part I of the {JPFG} 2000 standard is presented and performance comparisons with established standards are reported. This article is intended to serve as a tutorial for the {JPEG} 2000 standard. The main application areas and their requirements are given. The architecture of the standard follows with the description of the tiling, multicomponent transformations, wavelet transforms, quantization and entropy coding. Some of the most significant features of the standard are presented, such as region-of-interest coding, scalability, visual weighting, error resilience and file format aspects. Finally, some comparative results are reported and the future parts of the standard are discussed},
+	number = {5},
+	journal = {{IEEE} Signal Processing Magazine},
+	author = {Skodras, A. and Christopoulos, C. and Ebrahimi, T.},
+	year = {2001},
+	keywords = {code standards, data compression, entropy codes, entropy coding, error resilience, file format, {IEC} standards, image coding, image tiling, international standard, {ISO} standards, {ISO/IEC}, {JPEG} 2000 still image compression standard, multicomponent transformations, Part I standard, performance comparisons, quantisation (signal), quantization, region-of-interest coding, Resilience, reviews, scalability, standardisation, Standardization, standardization committee, telecommunication standards, transform coding, visual weighting, wavelet transforms},
+	pages = {36--58},
+	file = {IEEE Xplore Abstract Record:files/221/abs_all.html:text/html;IEEE Xplore Full Text PDF:files/220/Skodras et al. - 2001 - The JPEG 2000 still image compression standard.pdf:application/pdf}
+},
+
+@book{chui1992introduction,
+  title={An Introduction to Wavelets},
+  author={Chui, C.K.},
+  isbn={9780121745844},
+  lccn={91058831},
+  series={Wavelet Analysis and Its Applications, Vol. 1},
+  year={1992},
+  publisher={ACADEMIC PressINC}
+}
+
+@article{kunz_equivalence_1979,
+	title = {On the Equivalence Between One-Dimensional Discrete Walsh-Hadamard and Multidimensional Discrete Fourier Transforms},
+	volume = {28},
+	issn = {0018-9340},
+	doi = {10.1109/TC.1979.1675334},
+	abstract = {It is shown that the discrete {Walsh?Hadamard} transform applied to 2none-dimensional data is equivalent to the discrete n-dimensional Fourier transform applied to the same 2ndata arranged on the binary n-cube. A similar relationship is valid for the generalized discrete Walsh transform suggested by Andrews and Caspari. This relationship explains the theorem concerning the shif},
+	number = {3},
+	journal = {{IEEE} Transactions on Computers},
+	author = {Kunz, H. O.},
+	year = {1979},
+	keywords = {multidimensional fourier transform, spectral analysis, walsh transform},
+	pages = {267--268},
+	file = {IEEE Computer Snapshot:files/224/01675334-abs.html:text/html}
+}
+
+@article{ieee_2008,
+	author = {{IEEE}},
+	title = {{IEEE} Standard for Floating-Point Arithmetic},
+	doi = {10.1109/IEEESTD.2008.4610935},
+	abstract = {This standard specifies interchange and arithmetic formats and methods for binary and decimal floating-point arithmetic in computer programming environments. This standard specifies exception conditions and their default handling. An implementation of a floating-point system conforming to this standard may be realized entirely in software, entirely in hardware, or in any combination of software and hardware. For operations specified in the normative part of this standard, numerical results and exceptions are uniquely determined by the values of the input data, sequence of operations, and destination formats, all under user control.},
+	journal = {{IEEE} Std 754-2008},
+	year = {2008},
+	keywords = {arithmetic, arithmetic formats, binary, computer programming, decimal, decimal floating-point arithmetic, exponent, floating point arithmetic, floating-point, format, {IEEE} standard, {IEEE} standards, interchange, {NaN}, number, programming, rounding, significand, subnormal},
+	pages = {1--58}
+}
+
+@book{GSL,
+    abstract = {{The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers. It provides over 1,000 routines for solving mathematical problems in science and engineering. Written by the developers of GSL this reference manual is the definitive guide to the library. <P>The GNU Scientific Library is free software, distributed under the GNU General Public License (GPL). It is available for GNU (GNU/Linux), Unix and Microsoft Windows systems. <P>This is the revised and updated second edition of the manual, and corresponds to version 1.6 of the library.}},
+    author = {Galassi, Mark and Davies, Jim and Theiler, James and Gough, Brian and Jungman, Gerard and Booth, Michael and Rossi, Fabrice},
+    citeulike-article-id = {672166},
+
+    day = {01},
+    howpublished = {Paperback},
+    isbn = {0954161734},
+    keywords = {numerical\_recipes},
+    month = feb,
+    posted-at = {2008-04-04 09:38:42},
+    priority = {2},
+    publisher = {Network Theory Ltd.},
+    title = {{{GNU} Scientific Library: Reference Manual}},
+    year = {2003}
+}
+
+@article{hoffmann_pharmacokinetic_1995,
+	title = {Pharmacokinetic mapping of the breast: a new method for dynamic {MR} mammography},
+	volume = {33},
+	issn = {0740-3194},
+	shorttitle = {Pharmacokinetic mapping of the breast},
+	abstract = {A dynamic contrast-enhanced {MRI} technique for whole breast examinations is presented. The fast kinetics of tissue response during and after constant-rate intravenous infusion of gadolinium diethylenetriaminopentaacetic acid was resolved using a strongly T1-weighted saturation recovery {TurboFLASH} sequence that makes it possible to acquire signal-time courses sequentially from 15 adjacent slices with a temporal sampling rate of 21 s. On the basis of the mathematically established and experimentally verified linear relationship between the measured saturation recovery {TurboFLASH} signal variation and the gadolinium diethylenetriaminopentaacetic acid concentration in the tissue, the signal-time courses were analyzed within the framework of pharmacokinetic modeling. In our study, the tissue response was parameterized adequately using an open linear two-compartment model. With this approach, the tissue specific information contained in the signal-time course can be described using only two parameters: an amplitude A, reflecting the degree of {MR} signal enhancement, and an exchange parameter k21, characterizing vascular permeability and perfusion of the tissue. A clearly arranged representation of the large amount of data (480 saturation recovery {TurboFLASH} breast images/examination) was accomplished by means of color coding of the computed parameters, resulting in one color-coded pharmacokinetic parameter map/cross-section.},
+	language = {eng},
+	number = {4},
+	journal = {Magnetic resonance in medicine: official journal of the Society of Magnetic Resonance in Medicine / Society of Magnetic Resonance in Medicine},
+	author = {Hoffmann, U and Brix, G and Knopp, M V and Hess, T and Lorenz, W J},
+	month = apr,
+	year = {1995},
+	note = {{PMID:} 7776881},
+	keywords = {Breast, Breast Neoplasms, Carcinoma, Ductal, Breast, Contrast Media, Female, Gadolinium {DTPA}, Humans, Image Processing, Computer-Assisted, Magnetic Resonance Imaging, Middle Aged, Models, Structural, Organometallic Compounds, Pentetic Acid, Signal Processing, Computer-Assisted},
+	pages = {506--514}
+}
+
+
+@article{han_temporal/spatial_2012,
+	title = {Temporal/spatial resolution improvement of in vivo {DCE-MRI} with compressed sensing--optimized {FLASH}},
+	volume = {30},
+	issn = {0730-{725X}},
+	doi = {10.1016/j.mri.2012.02.001},
+	abstract = {Dynamic contrast-enhanced magnetic resonance imaging ({DCE-MRI)} provides critical information regarding tumor perfusion and permeability by injecting a T1 contrast agent, such as Gd-{DTPA}, and making a time-resolved measurement of signal increase. Both temporal and spatial resolutions are required to be high to achieve an accurate and reproducible estimation of tumor perfusion. However, the dynamic nature of the {DCE} experiment limits simultaneous improvement of temporal and spatial resolution by conventional methods. Compressed sensing ({CS)} has become an important tool for the acceleration of imaging times in {MRI}, which is achieved by enabling the reconstruction of subsampled data. Similarly, {CS} algorithms can be utilized to improve the temporal/spatial resolution of {DCE-MRI}, and several works describing retrospective simulations have demonstrated the feasibility of such improvements. In this study, the fast low angle shot sequence was modified to implement a Cartesian, {CS-optimized}, sub-Nyquist phase encoding acquisition/reconstruction with multiple two-dimensional slice selections and was tested on water phantoms and animal tumor models. The mean voxel-level concordance correlation coefficient for Akep values obtained from ×4 and ×8 accelerated and the fully sampled data was 0.87±0.11 and 0.83±0.11, respectively (n=6), with optimized {CS} parameters. In this case, the reduction of phase encoding steps made possible by {CS} reconstruction improved effectively the temporal/spatial resolution of {DCE-MRI} data using an in vivo animal tumor model (n=6) and may be useful for the investigation of accelerated acquisitions in preclinical and clinical {DCE-MRI} trials.},
+	number = {6},
+	urldate = {2013-07-04},
+	journal = {Magnetic Resonance Imaging},
+	author = {Han, {SoHyun} and Paulsen, Jeffrey L. and Zhu, Gang and Song, Youngkyu and Chun, {SongI} and Cho, Gyunggoo and Ackerstaff, Ellen and Koutcher, Jason A. and Cho, {HyungJoon}},
+	month = jul,
+	year = {2012},
+	keywords = {compressed sensing, {DCE} {MRI}, Spatiotemporal resolution, Undersampling},
+	pages = {741--752},
+	file = {Han et al. - 2012 - Temporalspatial resolution improvement of in vivo.pdf:files/490/Han et al. - 2012 - Temporalspatial resolution improvement of in vivo.pdf:application/pdf;ScienceDirect Snapshot:files/491/S0730725X12000355.html:text/html}
+}
+
+
+
+@inproceedings{micikevicius_3d_2009,
+	address = {New York, {NY}, {USA}},
+	series = {{GPGPU-2}},
+	title = {{3D} finite difference computation on {GPUs} using {CUDA}},
+	isbn = {978-1-60558-517-8},
+	doi = {10.1145/1513895.1513905},
+	abstract = {In this paper we describe a {GPU} parallelization of the {3D} finite difference computation using {CUDA.} Data access redundancy is used as the metric to determine the optimal implementation for both the stencil-only computation, as well as the discretization of the wave equation, which is currently of great interest in seismic computing. For the larger stencils, the described approach achieves the throughput of between 2,400 to over 3,000 million of output points per second on a single Tesla 10-series {GPU.} This is roughly an order of magnitude higher than a 4-core Harpertown {CPU} running a similar code from seismic industry. Multi-{GPU} parallelization is also described, achieving linear scaling with {GPUs} by overlapping inter-{GPU} communication with computation.},
+	urldate = {2013-08-08},
+	booktitle = {Proceedings of 2nd Workshop on General Purpose Processing on Graphics Processing Units},
+	publisher = {{ACM}},
+	author = {Micikevicius, Paulius},
+	year = {2009},
+	keywords = {{CUDA}, finite difference, {GPU}, parallel algorithms},
+	pages = {79–84},
+	file = {Micikevicius - 2009 - 3D finite difference computation on GPUs using CUD.pdf:files/76/Micikevicius - 2009 - 3D finite difference computation on GPUs using CUD.pdf:application/pdf}
+}
+
+
+
+
+@misc{KTFOCUSS,
+	title = {},
+	author = {Jung, Hong and Ye, Jong Chul and Kim, Eung Yeop},
+	year = {2007},
+	url = {http://bisp.kaist.ac.kr/ktFOCUSS.html}
+}
+
+
+@misc{OPENMPI,
+	author = {{OPENMPI}},
+	title = {},
+	year = 2013,
+	note = {{http://www.open-mpi.org/software/ompi/v1.7}}
+}
+
+
+@misc{MPI,
+	author = {{MPI}},
+	title = {},
+	year = 1992,
+	note = {{http://www.mpi-forum.org}}
+}
+
+@misc{OPENMP,
+	author = {{OPENMP}},
+	title = {},
+	year = 2008,
+	note = {{http://openmp.org}}
+}
+
+@misc{CUDART,
+	author = {{NVIDIA}},
+	title = {},
+	year = 2007,
+	note = {{http://docs.nvidia.com/cuda/cuda-runtime-api}}
+}
+
+@misc{CUDAHOME,
+	author = {{NVIDIA}},
+	title = {},
+	year = 2006,
+	note = {{http://developer.nvidia.com/category/zone/cuda-zone}}
+}
+	
+@misc{CUDA,
+	author = {{NVIDIA}},
+	title = {},
+	year = 2007,
+	note = {{http://docs.nvidia.com/cuda/cuda-c-programming-guide}}
+}
+
+@misc{CUFFT,
+	author = {{NVIDIA}},
+	title = {},
+	year = 2007,
+	note = {{http://docs.nvidia.com/cuda/cufft/index.html}}
+}
+
+@misc{GPUDIRECT,
+  author = {{NVIDIA}},
+  title = {},
+  year = 2010,
+  note = {{http://developer.nvidia.com/gpudirect}}
+}
+
+@misc{GPUDWT,
+	title = {{GPU--Based} {DWT} Acceleration for {JPEG2000}},
+	author = {Matela, Jiri},
+	year = {2009},
+	url = {http://code.google.com/p/gpudwt}
+}
+
+
+@misc{DWTPOSTER,
+	title = {Real-time {JPEG2000} for Digital Cinema and Large-Scale Image Archiving},
+	author = {Matela, Jiri},
+	year = {2013},
+	url = {http://on-demand.gputechconf.com/gtc/2013/poster/pdf/P0227_JiriMatela.pdf}
+}
+
+
+
+
+
+
+
+@article{pmri_rev1,
+    abstract = {{Fast imaging methods and the availability of required hardware for magnetic resonance tomography (MRT) have significantly reduced acquisition times from about an hour down to several minutes or seconds. With this development over the last 20 years, magnetic resonance imaging (MRI) has become one of the most important instruments in clinical diagnosis. In recent years, the greatest progress in further increasing imaging speed has been the development of parallel MRI (pMRI). Within the last 3 years, parallel imaging methods have become commercially available, and therefore are now available for a broad clinical use. The basic feature of pMRI is a scan time reduction, applicable to nearly any available MRI method, while maintaining the contrast behavior without requiring higher gradient system performance. Because of its faster image acquisition, pMRI can in some cases even significantly improve image quality. In the last 10 years of pMRI development, several different pMRI reconstruction methods have been set up which partially differ in their philosophy, in the mode of reconstruction as well in their advantages and drawbacks with regard to a successful image reconstruction. In this review, a brief overview is given on the advantages and disadvantages of present pMRI methods in clinical applications, and examples from different daily clinical applications are shown.}},
+    address = {Department of Physics, University of W\"{u}rzburg, W\"{u}rzburg, Germany. mblaimer@physik.uni-wuerzburg.de},
+    author = {Blaimer, M. and Breuer, F. and Mueller, M. and Heidemann, R. M. and Griswold, M. A. and Jakob, P. M.},
+    citeulike-article-id = {3339317},
+    citeulike-linkout-0 = {http://view.ncbi.nlm.nih.gov/pubmed/15548953},
+    citeulike-linkout-1 = {http://www.hubmed.org/display.cgi?uids=15548953},
+    issn = {0899-3459},
+    journal = {Topics in magnetic resonance imaging : TMRI},
+    keywords = {pmri},
+    month = aug,
+    number = {4},
+    pages = {223--236},
+    pmid = {15548953},
+    posted-at = {2008-09-26 10:25:50},
+    priority = {0},
+    title = {{SMASH, SENSE, PILS, GRAPPA: how to choose the optimal method.}},
+    volume = {15},
+    year = {2004}
+}
+
+@article{pratx_gpu_2011,
+	title = {{GPU} computing in medical physics: a review},
+	volume = {38},
+	issn = {0094-2405},
+	shorttitle = {{GPU} computing in medical physics},
+	abstract = {The graphics processing unit ({GPU)} has emerged as a competitive platform for computing massively parallel problems. Many computing applications in medical physics can be formulated as data-parallel tasks that exploit the capabilities of the {GPU} for reducing processing times. The authors review the basic principles of {GPU} computing as well as the main performance optimization techniques, and survey existing applications in three areas of medical physics, namely image reconstruction, dose calculation and treatment plan optimization, and image processing.},
+	language = {eng},
+	number = {5},
+	journal = {Medical physics},
+	author = {Pratx, Guillem and Xing, Lei},
+	month = may,
+	year = {2011},
+	note = {{PMID:} 21776805},
+	keywords = {computer graphics, Computing Methodologies, {DIAGNOSTIC} imaging, Equipment Design, Health Physics, Radiotherapy Planning, Computer-Assisted, Signal Processing, Computer-Assisted},
+	pages = {2685--2697}
+}
+
+@article{eklund_medical_2013,
+	title = {Medical image processing on the {GPU} – Past, present and future},
+	volume = {17},
+	issn = {1361-8415},
+	doi = {10.1016/j.media.2013.05.008},
+	abstract = {Abstract
+Graphics processing units ({GPUs)} are used today in a wide range of applications, mainly because they can dramatically accelerate parallel computing, are affordable and energy efficient. In the field of medical imaging, {GPUs} are in some cases crucial for enabling practical use of computationally demanding algorithms. This review presents the past and present work on {GPU} accelerated medical image processing, and is meant to serve as an overview and introduction to existing {GPU} implementations. The review covers {GPU} acceleration of basic image processing operations (filtering, interpolation, histogram estimation and distance transforms), the most commonly used algorithms in medical imaging (image registration, image segmentation and image denoising) and algorithms that are specific to individual modalities ({CT}, {PET}, {SPECT}, {MRI}, {fMRI}, {DTI}, ultrasound, optical imaging and microscopy). The review ends by highlighting some future possibilities and challenges.},
+	number = {8},
+	urldate = {2013-08-25},
+	journal = {Medical Image Analysis},
+	author = {Eklund, Anders and Dufort, Paul and Forsberg, Daniel and {LaConte}, Stephen M.},
+	month = dec,
+	year = {2013},
+	keywords = {{CUDA}, graphics processing unit ({GPU)}, image processing, image reconstruction, medical imaging},
+	pages = {1073--1094},
+	file = {Eklund et al. - 2013 - Medical image processing on the GPU – Past, presen.pdf:E:\Zotero\storage\NJZIPEB6\Eklund et al. - 2013 - Medical image processing on the GPU – Past, presen.pdf:application/pdf;ScienceDirect Snapshot:E:\Zotero\storage\97MR25AD\S1361841513000820.html:text/html}
+}
+
+
+@book{owens_survey_2007,
+	title = {A survey of general-purpose computation on graphics hardware},
+	abstract = {The rapid increase in the performance of graphics hardware, coupled with recent improvements in its programmability, have made graphics hardware acompelling platform for computationally demanding tasks in awide variety of application domains. In this report, we describe, summarize, and analyze the latest research in mapping general-purpose computation to graphics hardware. We begin with the technical motivations that underlie general-purpose computation on graphics processors ({GPGPU)} and describe the hardware and software developments that have led to the recent interest in this field. We then aim the main body of this report at two separate audiences. First, we describe the techniques used in mapping general-purpose computation to graphics hardware. We believe these techniques will be generally useful for researchers who plan to develop the next generation of {GPGPU} algorithms and techniques. Second, we survey and categorize the latest developments in general-purpose application development on graphics hardware.},
+	author = {Owens, John D. and Luebke, David and Govindaraju, Naga and Harris, Mark and Krüger, Jens and Lefohn, Aaron E. and Purcell, Tim},
+	year = {2007},
+	file = {Citeseer - Snapshot:E:\Zotero\storage\RREXG7K4\summary.html:text/html;Owens et al. - 2007 - A survey of general-purpose computation on graphic.pdf:E:\Zotero\storage\52M572TQ\Owens et al. - 2007 - A survey of general-purpose computation on graphic.pdf:application/pdf}
+}
+
+
+@article{owens_gpu_2008,
+	title = {{GPU} Computing},
+	volume = {96},
+	issn = {0018-9219},
+	doi = {10.1109/JPROC.2008.917757},
+	abstract = {The graphics processing unit ({GPU)} has become an integral part of today's mainstream computing systems. Over the past six years, there has been a marked increase in the performance and capabilities of {GPUs.} The modern {GPU} is not only a powerful graphics engine but also a highly parallel programmable processor featuring peak arithmetic and memory bandwidth that substantially outpaces its {CPU} counterpart. The {GPU's} rapid increase in both programmability and capability has spawned a research community that has successfully mapped a broad range of computationally demanding, complex problems to the {GPU.} This effort in general-purpose computing on the {GPU}, also known as {GPU} computing, has positioned the {GPU} as a compelling alternative to traditional microprocessors in high-performance computer systems of the future. We describe the background, hardware, and programming model for {GPU} computing, summarize the state of the art in tools and techniques, and present four {GPU} computing successes in game physics and computational biophysics that deliver order-of-magnitude performance gains over optimized {CPU} applications.},
+	number = {5},
+	journal = {Proceedings of the {IEEE}},
+	author = {Owens, {J.D.} and Houston, M. and Luebke, D. and Green, S. and Stone, {J.E.} and Phillips, {J.C.}},
+	year = {2008},
+	keywords = {Arithmetic, Bandwidth, Central Processing Unit, computational biophysics, computer graphic equipment, Engines, game physics, general-purpose computing, General-purpose computing on the graphics processing unit ({GPGPU)}, {GPU} computing, Graphics, graphics engine, Graphics processing unit, Hardware, high-performance computer system, memory bandwidth, microcomputers, microprocessor, Microprocessors, parallel computing, parallel programmable processor, parallel programming, peak arithmetic, Performance gain, Physics computing, programming model},
+	pages = {879--899},
+	file = {IEEE Xplore Abstract Record:E:\Zotero\storage\64PMS5G6\articleDetails.html:text/html;Owens et al. - 2008 - GPU Computing.pdf:E:\Zotero\storage\WWUJKWXB\Owens et al. - 2008 - GPU Computing.pdf:application/pdf}
+}
+
+@book{kirk_programming_2012,
+	title = {Programming Massively Parallel Processors: A Hands-on Approach},
+	isbn = {9780124159921},
+	shorttitle = {Programming Massively Parallel Processors},
+	abstract = {{"Programming} Massively Parallel Processors: A Hands-on Approach" shows both student and professional alike the basic concepts of parallel programming and {GPU} architecture. Various techniques for constructing parallel programs are explored in detail. Case studies demonstrate the development process, which begins with computational thinking and ends with effective and efficient parallel programs. Topics of performance, floating-point format, parallel patterns, and dynamic parallelism are covered in depth. This best-selling guide to {CUDA} and {GPU} parallel programming has been revised with more parallel programming examples, commonly-used libraries such as Thrust, and explanations of the latest tools. With these improvements, the book retains its concise, intuitive, practical approach based on years of road-testing in the authors' own parallel computing courses. Updates in this new edition include: New coverage of {CUDA} 5.0, improved performance, enhanced development tools, increased hardware support, and {moreIncreased} coverage of related technology, {OpenCL} and new material on algorithm patterns, {GPU} clusters, host programming, and data {parallelismTwo} new case studies (on {MRI} reconstruction and molecular visualization) explore the latest applications of {CUDA} and {GPUs} for scientific research and high-performance computing},
+	language = {en},
+	publisher = {Morgan Kaufmann},
+	author = {Kirk, David B. and Hwu, Wen-Mei W.},
+	month = dec,
+	year = {2012},
+	keywords = {Computers / Computer Engineering, Computers / Microprocessors, Computers / Programming / Parallel, Computers / Programming Languages / C, Computers / Systems Architecture / Distributed Systems \& Computing, Computers / Systems Architecture / General}
+}
+
+
+@book{farber_cuda_2011,
+	title = {{CUDA} Application Design and Development},
+	isbn = {9780123884268},
+	abstract = {As the computer industry retools to leverage massively parallel graphics processing units ({GPUs)}, this book is designed to meet the needs of working software developers who need to understand {GPU} programming with {CUDA} and increase efficiency in their projects. {CUDA} Application Design and Development starts with an introduction to parallel computing concepts for readers with no previous parallel experience, and focuses on issues of immediate importance to working software developers: achieving high performance, maintaining competitiveness, analyzing {CUDA} benefits versus costs, and determining application lifespan. The book then details the thought behind {CUDA} and teaches how to create, analyze, and debug {CUDA} applications. Throughout, the focus is on software engineering issues: how to use {CUDA} in the context of existing application code, with existing compilers, languages, software tools, and industry-standard {API} libraries. Using an approach refined in a series of well-received articles at Dr Dobb's Journal, author Rob Farber takes the reader step-by-step from fundamentals to implementation, moving from language theory to practical coding. Includes multiple examples building from simple to more complex applications in four key areas: machine learning, visualization, vision recognition, and mobile {computingAddresses} the foundational issues for {CUDA} development: multi-threaded programming and the different memory {hierarchyIncludes} teaching chapters designed to give a full understanding of {CUDA} tools, techniques and {structure.Presents} {CUDA} techniques in the context of the hardware they are implemented on as well as other styles of programming that will help readers bridge into the new material},
+	language = {en},
+	publisher = {Elsevier},
+	author = {Farber, Rob},
+	year = {2011},
+	keywords = {Computers / General, Computers / Software Development \& Engineering / General, {COMPUTERS} / Software Development \& Engineering / Project Management, Computers / Systems Architecture / General}
+}
+
+
+@book{sanders_cuda_2011,
+	title = {{CUDA} by Example: An Introduction to General-purpose {GPU} Programming},
+	isbn = {9780131387683},
+	shorttitle = {{CUDA} by Example},
+	abstract = {{“This} book is required reading for anyone working with accelerator-based computing systems.” {–From} the Foreword by Jack Dongarra, University of Tennessee and Oak Ridge National Laboratory {CUDA} is a computing architecture designed to facilitate the development of parallel programs. In conjunction with a comprehensive software platform, the {CUDA} Architecture enables programmers to draw on the immense power of graphics processing units ({GPUs)} when building high-performance applications. {GPUs}, of course, have long been available for demanding graphics and game applications. {CUDA} now brings this valuable resource to programmers working on applications in other domains, including science, engineering, and finance. No knowledge of graphics programming is required–just the ability to program in a modestly extended version of C.   {CUDA} by Example, written by two senior members of the {CUDA} software platform team, shows programmers how to employ this new technology. The authors introduce each area of {CUDA} development through working examples. After a concise introduction to the {CUDA} platform and architecture, as well as a quick-start guide to {CUDA} C, the book details the techniques and trade-offs associated with each key {CUDA} feature. You’ll discover when to use each {CUDA} C extension and how to write {CUDA} software that delivers truly outstanding performance.   Major topics covered include   Parallel programming   Thread cooperation   Constant memory and events   Texture memory   Graphics interoperability   Atomics   Streams   {CUDA} C on multiple {GPUs}   Advanced atomics   Additional {CUDA} resources   All the {CUDA} software tools you’ll need are freely available for download from {NVIDIA.} http://developer.nvidia.com/object/cuda-by-example.html},
+	language = {en},
+	publisher = {Addison Wesley Professional},
+	author = {Sanders, Jason and Kandrot, Edward},
+	year = {2011},
+	keywords = {Computers / Programming / Parallel, Computers / Systems Architecture / General}
+}
+
+@book{cook_cuda_2013,
+	title = {{CUDA} Programming: A Developer's Guide to Parallel Computing with {GPUs}},
+	isbn = {9780124159334},
+	shorttitle = {{CUDA} Programming},
+	abstract = {If you need to learn {CUDA} but don't have experience with parallel computing, {CUDA} Programming: A Developer's Introduction offers a detailed guide to {CUDA} with a grounding in parallel fundamentals. It starts by introducing {CUDA} and bringing you up to speed on {GPU} parallelism and hardware, then delving into {CUDA} installation. Chapters on core concepts including threads, blocks, grids, and memory focus on both parallel and {CUDA-specific} issues. Later, the book demonstrates {CUDA} in practice for optimizing applications, adjusting to new hardware, and solving common problems. Comprehensive introduction to parallel programming with {CUDA}, for readers new to {bothDetailed} instructions help readers optimize the {CUDA} software development {kitPractical} techniques illustrate working with memory, threads, algorithms, resources, and {moreCovers} {CUDA} on multiple hardware platforms: Mac, Linux and Windows with several {NVIDIA} {chipsetsEach} chapter includes exercises to test reader knowledge},
+	language = {en},
+	publisher = {Newnes},
+	author = {Cook, Shane},
+	year = {2013},
+	keywords = {Computers / Programming / Parallel, Computers / Systems Architecture / Distributed Systems \& Computing}
+}
+
+@misc{ITK,
+	author = {{The Insight Software Consortium}},
+	title = {The Insight Segmentation and Registration Toolkit},
+	year = 2013,
+	note = {{http:// www.itk.org}}
+}
+
+
+@article{wang_image_2004,
+	title = {Image quality assessment: from error visibility to structural similarity},
+	volume = {13},
+	issn = {1057-7149},
+	shorttitle = {Image quality assessment},
+	doi = {10.1109/TIP.2003.819861},
+	abstract = {Objective methods for assessing perceptual image quality traditionally attempted to quantify the visibility of errors (differences) between a distorted image and a reference image using a variety of known properties of the human visual system. Under the assumption that human visual perception is highly adapted for extracting structural information from a scene, we introduce an alternative complementary framework for quality assessment based on the degradation of structural information. As a specific example of this concept, we develop a structural similarity index and demonstrate its promise through a set of intuitive examples, as well as comparison to both subjective ratings and state-of-the-art objective methods on a database of images compressed with {JPEG} and {JPEG2000.} A {MATLAB} implementation of the proposed algorithm is available online at http://www.cns.nyu.edu/~lcv/ssim/.},
+	number = {4},
+	journal = {{IEEE} Transactions on Image Processing},
+	author = {Wang, Zhou and Bovik, {A.C.} and Sheikh, {H.R.} and Simoncelli, {E.P.}},
+	year = {2004},
+	keywords = {Algorithms, data compression, Data Interpretation, Statistical, Data mining, Degradation, distorted image, error sensitivity, error visibility, human visual perception, human visual system, Humans, Hypermedia, image coding, image compression, image database, Image Enhancement, Image Interpretation, Computer-Assisted, Image quality, Indexes, Information Storage and Retrieval, {JPEG}, {JPEG2000}, Layout, Models, Statistical, Pattern Recognition, Automated, perceptual image quality assessment, Quality assessment, Quality Control, reference image, Reproducibility of Results, Sensitivity and Specificity, Signal Processing, Computer-Assisted, structural information, structural similarity index, Subtraction Technique, transform coding, visual perception, visual system},
+	pages = {600--612},
+	file = {IEEE Xplore Abstract Record:E:\Zotero\storage\SII2RXMH\abs_all.html:text/html;IEEE Xplore Full Text PDF:E:\Zotero\storage\D46UIJTG\Wang et al. - 2004 - Image quality assessment from error visibility to.pdf:application/pdf}
+}

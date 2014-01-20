@@ -1,0 +1,18 @@
+\subsection{Compare mixed-band wavelet performance}
+\subsubsection{Single core CPU implementation}
+We attempt to compare our single core CPU implementation with two other well-known libraries: the Wavelet Package used in CSMRI reconstruction from~\cite{lustig_compressed_2008}  and GNU Scientific Libraries~\cite{GSL}
+\subsubsection{GPU implementation}
+We also compare with the most recent optimized 2D DWT from ~\cite{matela_gpu_2009} 
+\subsection{Compare the image quality with other one-step approaches}
+Peak signal-to-noise ratio (shorts for PSNR), is an important assessment to measure the quality of the reconstructed images from noisy resources and the purely original ones. This metric starts out from mean square error between an noisy image $I$ and an unnoisy one $I_0$, which is given by
+\[MSE = \frac{1}{{xy}}\sum\limits_{i = 0}^{y - 1} {\sum\limits_{j = 0}^{x - 1} {{{\left( {I\left( {i,j} \right) - {I_0}\left( {i,j} \right)} \right)}^2}} } \]
+Then the PSNR is formed as
+\[PSNR = 10 \cdot {\log _{10}}\left( {\frac{{MAX_I^2}}{{MSE}}} \right)\]
+
+Another evaluation metric is structural similarity index (SSIM) algorithm~\cite{wang_image_2004} which is proposed to correct the inconsistency with human visual perception. It is calculated on various windows of an image and formed nicely as following:
+\[SSIM\left( {x,y} \right) = \frac{{\left( {2{\mu _x}{\mu _y} + {c_1}} \right)\left( {2{\sigma _{xy}} + {c_2}} \right)}}{{\left( {\mu _x^2 + \mu _y^2 + {c_1}} \right)\left( {\sigma _x^2 + \sigma _y^2 + {c_2}} \right)}}\]
+
+
+
+\subsection{Compare CSMRI Reconstruction}
+
